@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./flor.css" />
+    <title>Floristería</title>
+  </head>
+  <body class="body color-propio">
+    <header id="headerContainer" class="top container-fluid">
+      <h1 class="nombre ms-5">Como Una Flor</h1>
+      
+    </header>
+    <div id="navtop" class="container-fluid p-0 " style="background-color:#8c275aad;">
+      <nav id="navegacion" class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <div class="icono pe-3" style="font-size:5; color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+              <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
+              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+            </svg>
+          </div>
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active "  aria-current="page" href="#quienes somos "
+                  style="color:white;">quienes somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ramos</a></li>
+                  <li><a class="dropdown-item" href="#">Bouquets</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Tarjetas</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Mas sobre flores</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar producto"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" style="background-color:#82e1e0 ;" type="submit">
+                Buscar Producto
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+<!-- carousel -->
+    <div 
+      id="carouselExampleSlidesOnly"
+      class="carousel slide container"
+      data-bs-ride="carousel"
+    >
+    <div class="row container justify-content-center align-items-center">
+      <div class="col-6 mt-5">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://decoracionesbonitas.com/wp-content/uploads/2022/05/regalos-para-el-dia-de-las-madres-2-1.jpg" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/originals/cc/84/ec/cc84ec5fbc324e4b5ff293c72bb337fe.jpg "d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/af/ed/b0/afedb0d3cdad06eb7b66d084ee426c1e.jpg" class="d-block w-100" alt="3">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.okchicas.com/wp-content/uploads/2020/07/Ramos-de-flores-hermosos-y-rom%C3%A1nticos-19.jpg"d-block w-100" alt="4">
+          </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+<hr style="border: solid black 2px;">
+    </div>
+<br>
+<br>
+<br>
+    <div id="nosotros" class="container py-5" style="background-color:#cb7fa119;">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 py-3">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                Por que regalar flores
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Transmiten nuestras emociones, una de las razones principales <strong> por qué regalar flores </strong>. Las flores hablan por sí mismas. Y, en muchas ocasiones, son nuestro mejor aliado para decir muchas cosas sin palabras. Porque está claro que, quien regala flores, lo hace siempre llevado por emociones positivas y hermosas..
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                En que ocasiones regalar flores?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  En realidad, <strong> cualquier ocasión es buena para regalar flores a un ser querido</strong>. Aunque las flores suelen regalarse para conmemorar un día importante, no siempre es necesario esperar a que llegue una fecha señalada como un cumpleaños o un aniversario
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Desde cuando de regalan flores? 
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong> Se cree que esta tradición podría haber surgido en la Edad Media, en la época victoriana o quizás antes</strong>, pues ya se menciona en la mitología. Lo que está claro es que regalar ramos de flores es una excelente manera de transmitir un mensaje
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8 py-3">
+          <h2 class="pb-2 w-100 text-sm-start">¿Quienes Somos?</h2>
+          <img class="w-50 pb-3" src="./slider/quienessomosl.jpg" alt="" />
+          <p>
+            Nuestra empresa fue fundada en el 2001, pero nuestra familia ha estado en el negocio de las flores por muchas generaciones. Nuestra casa matriz está ubicada en Miami, Florida.
+
+Empezamos ofreciendo entrega de flores inicialmente en Colombia, México y Venezuela, pero con el paso de los años ampliamos nuestra cobertura y hoy día entregamos flores en más de 28 países.
+          </p>
+        </div>
+      </div>
+    </div>
+<!-- tarjetas -->
+    <div id="card-flores mt-5" class="container p-5"">
+      <h2 class="w-100 p-4 text-lg-center text-sm-center">
+          Mas sobre flores
+      </h2>
+      <div class="row gap-3">
+        <div class="card col-xxl-3" style="width: 18rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfNZ8kxPSUe-cXv3AlEFRKAX7NFYQdCjmvhg&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Clavel rosa</h5>
+            <p class="card-text">
+              El clavel rosa es la representación de la pureza, la inocencia; el amor puro, sincero y honesto. El clavel rojo es sinónimo de amor, de aprecio, de orgullo y admiración. El clavel rosa es amor profundo, amor incondicional, como el vínculo de una madre con sus hijos
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-xxl-3" style="width: 18rem">
+          <img
+            src="https://verdepimienta.es/308-large_default/ramo-hortensias-bellagio-floristeria-verde-pimienta-las-rozas-majadahonda-pozuelo-madrid.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Hortencias</h5>
+            <p class="card-text">
+               La hortensia es una flor cargada de simbolismo. Son símbolo de gratitud, de gracia, de belleza y también de abundancia, debido a la cantidad exuberante de flores y a su forma redonda tan generosa
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-xxl-3" style="width: 18rem">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Paniculata</h5>
+            <p class="card-text">
+              La paniculata tiene un significado claro y evidente: inocencia. Por sí sola o mezclada con otras flores da como resultado un bouquet floral perfecto en el que el protagonismo principal lo tienen estas sencillas pero bonitas flores.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-xxl-3" style="width: 18rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMPsXM9GDVc7s530it6QvUPfWOPRnPIXiI3QNZBU95CocSZ85m5iVMm_O2Fi806gHYXCo&usqp=CAU"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ranuculo</h5>
+            <p class="card-text">
+              Estas bellas flores tienen en el lenguaje de las flores una gran expresividad. Un ramo de ranúnculos dirá a la dama que las reciba, «Eres divina», «Eres radiante y encantadora», «Estás llena de encanto» o incluso en una lectura un poco más atrevida también significa «Tu cuerpo es hermoso».
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <!-- formulario -->
+  
+    <div class="container" style="background-color: #9cbe8a3f;" id="contacto">
+        <div class="row mt-5">
+        <div class="col-6     ">  
+            <label for="tex" class="form-label">Nombre</label>
+            <input type="text"id="username"  class="form-control  form-control-lg">
+        </div>
+        <div class=" col-6 mb-3">    
+            <label for="email" class="form-label">Email</label>
+            <input type="email"id="username"  class="form-control  form-control-lg">
+        </div> 
+       
+        <div class=" col-7 mb-3">    
+            <label for="pais" class="form-label">pais</label>
+            <select name="provincia" id="Provincia" class="form-control form-control-lg ">
+                <option value="p">Colombia</option>
+                <option value="p">Mexico</option>
+                <option value="p">Argentina</option>
+            </select>  
+        </div> 
+        <div class=" col-5 mb-3">    
+            <label for="text" class="form-label">Telefono</label>
+            <input type="text"id="username"  class="form-control  form-control-lg">
+        </div> 
+        
+        <div class="mb-3">
+            <label for="menssge">Descripcion</label>
+               <textarea class="menssge form-control" name="menssge" id="" cols="50" rows="3" placeholder="Menssage" form ></textarea>
+        </div>
+        
+        
+        <div class="mb-3 align-content-center">
+            <input type="button" value="Emviar" class="btn btn-primary"> 
+        </div>
+            
+            
+            
+    </div> 
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./node_modules/bootstrap/js/dist/carousel.js"></script>
+  </body>
+</html>
+
+
+
+="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./florcopia.css" />
+    <title>Floristería</title>
+  </head>
+  <body class="body color-propio">
+    <header id="headerContainer" class="top container-fluid">
+      <h1 class="nombre ms-5">Como Una Flor</h1>
+      
+    </header>
+    <div id="navtop" class="container-fluid p-0 " style="background-color:#8c275aad;">
+      <nav id="navegacion" class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <div class="icono pe-3" style="font-size:5; color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+              <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
+              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+            </svg>
+          </div>
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active "  aria-current="page" href="#quienes somos "
+                  style="color:white;">quienes somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ramos</a></li>
+                  <li><a class="dropdown-item" href="#">Bouquets</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Tarjetas</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Mas sobre flores</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar producto"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" style="background-color:#82e1e0 ;" type="submit">
+                Buscar Producto
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+<!-- carousel -->
+    <div 
+      id="carouselExampleSlidesOnly"
+      class="carousel slide container"
+      data-bs-ride="carousel"
+    >
+    <div class="row container justify-content-center align-items-center">
+      <div class="col-6 mt-5">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://decoracionesbonitas.com/wp-content/uploads/2022/05/regalos-para-el-dia-de-las-madres-2-1.jpg" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/originals/cc/84/ec/cc84ec5fbc324e4b5ff293c72bb337fe.jpg "d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/af/ed/b0/afedb0d3cdad06eb7b66d084ee426c1e.jpg" class="d-block w-100" alt="3">
+          </div>
+          <div class=
+...
